@@ -60,7 +60,7 @@ class WeatherInfoBody extends StatelessWidget {
                     children: [
                       // round => round to the nearest integer
                       Text("MaxTemp:${weatherModel.maxTemp.round()}"),
-                      Text("MaxTemp:${weatherModel.minTemp.round()}"),
+                      Text("MinTemp:${weatherModel.minTemp.round()}"),
                     ],
                   ),
                 ],
